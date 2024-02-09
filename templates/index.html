@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit List</title>
+</head>
+<body>
+    <header>
+        <h1>Fruit List</h1>
+        <!-- เพิ่มปุ่มไปยังหน้า add_fruit.html -->
+    <a href="{{ url_for('add_fruit') }}">Add Fruit</a>
+    </header>
+    <section>
+        <ul>
+            {% for fruit in fruits %}
+                <li>
+                    {{ fruit.name }} - {{ fruit.plantation_date }} to {{ fruit.harvest_date }}
+                    (<a href="{{ url_for('generate_qr', fruit_id=fruit.id) }}">Generate QR Code</a>)
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+</body>
+</html>
