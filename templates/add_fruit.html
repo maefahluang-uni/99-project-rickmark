@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Fruit</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Add Fruit</h1>
+    </header>
+    <section>
+        <form method="POST" action="{{ url_for('add_fruit') }}">
+            {{ form.csrf_token }}
+            {{ form.hidden_tag() }}
+            {{ form.name.label }} {{ form.name() }}
+            {{ form.plantation_date.label }} {{ form.plantation_date() }}
+            {{ form.harvest_date.label }} {{ form.harvest_date() }}
+            {{ form.submit() }}
+        </form>
+    </section>
+</body>
+</html>

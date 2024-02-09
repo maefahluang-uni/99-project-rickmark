@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated QR Code</title>
+</head>
+<body>
+    <header>
+        <h1>Generated QR Code</h1>
+    </header>
+    <section>
+        <!-- Display the QR code image -->
+        <img src="{{ url_for('static', filename=img_filename) }}" alt="QR Code">
+    </section>
+</body>
+</html>
