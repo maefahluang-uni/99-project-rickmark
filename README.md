@@ -13,14 +13,14 @@ You need to create skeleton of your project's development. It does not necessary
 - Decide what features to roll out and who is responsible for it.​ Create branches for each feature. Explain each feature in Readme file in their own branch​ 
 - Create Docker file for your deployment of your application 
 ## Feature
-- Responsible by 6431503021 Natthaphong Pajaroen
+- Responsible by 6431503021 Natthaphong Pajaroen.
 1. Register: Municipalities collect registration data from farmers.
 2. Farmer Login: Farmers log in to request Geographical Indications (GI) approval from the municipality.
 
-- Responsible by 6431503063 Saran Preechakarm
+- Responsible by 6431503063 Saran Preechakarm.
 3. Municipality Login: Municipalities log in to register farmers and approve Geographical Indications (GI) for farmers.
 4. Generate and Check QR Code: Consumers or the general public can scan QR codes to check the information of pineapple products.
 
-- Responsible by 6431503017 Napat Surapakdee
+- Responsible by 6431503017 Napat Surapakdee.
 5. Evaluate Product Satisfaction: Consumers or the general public can report their satisfaction with the system.
 6. Prove Geographical Indications (GI) for Municipality: Municipalities verify registered farmers' data and approve Geographical Indications (GI) for farmers based on their registered products.
