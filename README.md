@@ -4,9 +4,9 @@ Traceability system for Phulae pineapple and Nang Lae pineapple By collecting ge
 The municipality will have a register to collect information on farmers. The municipality will approve Geographical Indications(GI) to farmers. and have the system issue a Qr Code of pineapple produce For farmers to use Qr Codes on products
 
 ## Members
-6431503017 Napat Surapakdee
-6431503021 Natthaphong Pajaroen
-6431503063 Saran Preechakarm
+- 6431503017 Napat Surapakdee
+- 6431503021 Natthaphong Pajaroen
+- 6431503063 Saran Preechakarm
 ## Instruction
 You need to create skeleton of your project's development. It does not necessary include the complete source code. Please follow instructions below:
 - Create folder structure and some source code to prepare for development
